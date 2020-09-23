@@ -5,9 +5,9 @@
                 <img src="{{asset('imgs/index-page/doctor2.png')}}" alt="">
             </div>
             <div class="data col-lg-8 col-sm-12">
-                <h1>
+                <h1 class="text-center">
                     ABOUT US
-                    <span></span>
+                    <span class="ml-auto mr-auto"></span>
                 </h1>
                 <p class="lead">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempeor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis norud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat enduis aute irure dolor in reprehenderit in voluptate velit esse.cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

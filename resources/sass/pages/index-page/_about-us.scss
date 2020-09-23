@@ -3,6 +3,11 @@ div.home-page-style {
         margin-top: 100px;
         div.container {
             div.row {
+                div.img {
+                    img {
+                        max-width: 100%;
+                    }
+                }
                 div.data {
                     margin-left: 60px;
                     max-width: 61%;
@@ -35,7 +40,7 @@ div.home-page-style {
                         margin-top: 40px;
                         font-family: 'Montserrat', sans-serif;
                         color: #FFF;
-                        width: 100%;
+                        max-width: 100%;
                         text-align: center;
                         tr {
                             th, td {

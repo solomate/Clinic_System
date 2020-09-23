@@ -14196,13 +14196,10 @@ div.home-page-style div.welcome-section.container-md div.bg div.container div.da
 div.home-page-style div.welcome-section.container-lg div.bg div.container div.data h1,
 div.home-page-style div.welcome-section.container-xl div.bg div.container div.data h1 {
   background-color: #0074FA;
-  -webkit-clip-path: polygon(0% 0, 90% 0%, 95% 100%, 0% 100%);
-          clip-path: polygon(0% 0, 90% 0%, 95% 100%, 0% 100%);
   padding: 10px 10px;
   margin-bottom: 50px;
   color: #FFF;
-  width: 460px;
-  height: 63px;
+  max-width: 460px;
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
   display: inline-block;
@@ -14226,6 +14223,7 @@ div.home-page-style div.welcome-section.container-xl div.bg div.container div.da
   display: block;
   font-size: 38px;
   margin-bottom: 15px;
+  max-width: 100%;
 }
 
 div.home-page-style div.container-fluid.welcome-section div.bg div.container div.data p span.title span,
@@ -14271,12 +14269,38 @@ div.home-page-style div.welcome-section.container-xl div.bg div.container div.da
   }
 }
 
+@media (max-width: 440px) {
+  div.home-page-style div.container-fluid div.bg div.container div.data h1,
+  div.home-page-style div.container-sm div.bg div.container div.data h1,
+  div.home-page-style div.container-md div.bg div.container div.data h1,
+  div.home-page-style div.container-lg div.bg div.container div.data h1,
+  div.home-page-style div.container-xl div.bg div.container div.data h1 {
+    font-size: 26px;
+  }
+
+  div.home-page-style div.container-fluid div.bg div.container div.data p span.title,
+  div.home-page-style div.container-sm div.bg div.container div.data p span.title,
+  div.home-page-style div.container-md div.bg div.container div.data p span.title,
+  div.home-page-style div.container-lg div.bg div.container div.data p span.title,
+  div.home-page-style div.container-xl div.bg div.container div.data p span.title {
+    font-size: 26px !important;
+  }
+}
+
 div.home-page-style div.container-fluid.about-us-section,
 div.home-page-style div.about-us-section.container-sm,
 div.home-page-style div.about-us-section.container-md,
 div.home-page-style div.about-us-section.container-lg,
 div.home-page-style div.about-us-section.container-xl {
   margin-top: 100px;
+}
+
+div.home-page-style div.container-fluid.about-us-section div.container div.row div.img img,
+div.home-page-style div.about-us-section.container-sm div.container div.row div.img img,
+div.home-page-style div.about-us-section.container-md div.container div.row div.img img,
+div.home-page-style div.about-us-section.container-lg div.container div.row div.img img,
+div.home-page-style div.about-us-section.container-xl div.container div.row div.img img {
+  max-width: 100%;
 }
 
 div.home-page-style div.container-fluid.about-us-section div.container div.row div.data,
@@ -14356,7 +14380,7 @@ div.home-page-style div.about-us-section.container-xl div.container div.row div.
   margin-top: 40px;
   font-family: "Montserrat", sans-serif;
   color: #FFF;
-  width: 100%;
+  max-width: 100%;
   text-align: center;
 }
 
