@@ -14310,7 +14310,7 @@ div.home-page-style div.about-us-section.container-lg div.container div.row div.
 div.home-page-style div.about-us-section.container-xl div.container div.row div.data {
   margin-left: 60px;
   max-width: 61%;
-  margin-top: 100px;
+  margin-top: 20px;
   padding-left: 50px;
 }
 
@@ -14381,6 +14381,7 @@ div.home-page-style div.about-us-section.container-xl div.container div.row div.
   font-family: "Montserrat", sans-serif;
   color: #FFF;
   max-width: 100%;
+  width: 100%;
   text-align: center;
 }
 
